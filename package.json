@@ -1,0 +1,14 @@
+{
+  "name": "flux-balance-analysis",
+  "version": "1.0.0",
+  "description": "Perform Flux Balance Analysis (FBA) on a metabolic model",
+  "main": "js/index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Nicolas Pope",
+  "license": "ISC"
+}
