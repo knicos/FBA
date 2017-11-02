@@ -7,8 +7,16 @@
     "test": "test"
   },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "mocha test"
   },
   "author": "Nicolas Pope",
-  "license": "ISC"
+  "license": "BSD-2-Clause",
+  "devDependencies": {
+    "grunt": "^1.0.1",
+    "grunt-browserify": "^5.2.0",
+    "grunt-contrib-uglify": "git+https://github.com/gruntjs/grunt-contrib-uglify.git#harmony",
+    "mocha": "^4.0.1",
+    "sbml": "file:///home/nick/Repos/SBML",
+    "uglify-js": "git+https://github.com/mishoo/UglifyJS2.git#harmony"
+  }
 }
